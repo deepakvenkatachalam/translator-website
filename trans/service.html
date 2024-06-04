@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        #service {
+            background-color: white;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .service {
+            margin: 20px 0;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        @media (min-width: 768px) {
+            .service-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .service-content img {
+                flex: 1;
+                max-width: 45%;
+                margin-right: 20px;
+            }
+
+            .service-content p {
+                flex: 2;
+                margin-left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="service">
+        <h2>Services</h2>
+        <div class="service service-content">
+            <img src="../gall/information-technology-logo.jpg" height="400px" width="400px" alt="Information Technology Logo">
+            <div>
+                <h2>Web Design</h2>
+                <p>The TCP/IP protocol is used to transfer the data packets between transport layer and network layer. The TCP/IP protocol is used to transfer the data packets between transport layer and network layer.</p>
+            </div>
+        </div>
+        
+        <div class="service service-content">
+            <img src="../gall/OIP (1).jpg" height="400px" width="400px" alt="Web Design">
+            <div>
+                <h2>Web Design</h2>
+                <p>The TCP/IP protocol is used to transfer the data packets between transport layer and network layer. The TCP/IP protocol is used to transfer the data packets between transport layer and network layer.</p>
+            </div>
+        </div>
+        
+        <div class="service service-content">
+            <img src="../gall/OIP.jpg" height="400px" width="400px" alt="Web Design">
+            <div>
+                <h2>Web Design</h2>
+                <p>The TCP/IP protocol is used to transfer the data packets between transport layer and network layer. The TCP/IP protocol is used to transfer the data packets between transport layer and network layer.</p>
+            </div>
+        </div>
+    </section>
+
+    <p id="demo"></p>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'demo');
+        }
+    </script>
+</body>
+</html>

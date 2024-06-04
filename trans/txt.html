@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSLATOR</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .about {
+            background-color: #e0a4a4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about h1 {
+            color: #b22222;
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        .about p {
+            font-size: 18px;
+            color: #fff;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+        .about a {
+            text-decoration: none;
+            background-color: #fff;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .about a:hover {
+            background-color: #ccc;
+        }
+        @media (max-width: 600px) {
+            .about h1 {
+                font-size: 40px;
+            }
+            .about p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>One Page Website</h1>
+</header>    
+<nav>
+    <a href="#">Home</a>
+    <a href="../trans/service.html">About</a>
+    <a href="../trans/contact.html">Contact</a>
+    <a href="../trans/service.html">Service</a>
+</nav>
+<section class="about">
+    <h1>About Us</h1>
+    <p>The TCP/IP protocol is used to transfer the data packets between the transport layer and network layer. The TCP/IP protocol is used to transfer the data packets between the transport layer and network layer.</p>
+    <a href="#" class="team">Our Team</a> 
+</section>
+
+<p id="demo"></p>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'demo');
+    }
+</script>
+</body>
+</html>
